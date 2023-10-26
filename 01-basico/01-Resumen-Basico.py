@@ -1,9 +1,9 @@
 
 # PYTHON BASIC FROM ZERO.
 #
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # COMMENT simple (with hashtag).
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 """
 Multiples 
@@ -16,18 +16,18 @@ con 3 doble comillas
 con 3 comillas simples
 '''
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # DISPLAY IN CONSOLE:
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
-print ('-------------------------------------------------')
+print ('-----------------------')
 print ('Hola Mundo') # NO se necesita punto_y_coma al final!!
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # DATA TYPES:
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 print (type(10))                  # Int
 print (type(3.14))                # Float
@@ -37,12 +37,12 @@ print (type([1, 2, 3]))           # List
 print (type({'name':'Asabeneh'})) # Dictionary
 print (type({9.8, 3.14, 2.7}))    # Set
 print (type((9.8, 3.14, 2.7)))    # Tuple
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # VARIABLES IN PYTHON
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 '''
 - A variable name must start with a letter or the underscore character
@@ -73,7 +73,7 @@ print ('Age: ', age)
 print ('Married: ', is_married)
 print ('Skills: ', skills)
 print ('Person information: ', person_info)
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # Declaring multiple variables in one line
@@ -85,11 +85,11 @@ print ('Last name: ', last_name)
 print ('Country: ', country)
 print ('Age: ', age)
 print ('Married: ', is_married)
-print ('-------------------------------------------------')
+print ('-----------------------')
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # PYTHON RESERVED WORDS
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 help ('keywords')
 
@@ -107,19 +107,19 @@ break               for                 not
 
 dir(str) 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # INPUTS (entries)
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 # name = input('¿What is your name? ')
 # age = input('¿How old are you? ')
 # print ("Name:", name, "Age:", age)
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # ARITHMETIC OPERATIONS
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 # Integers
 print ('Addition: ', 1 + 2)
@@ -137,7 +137,7 @@ print ('Floating Number (gravity):', 9.81)
 # Complex numbers
 print ('Complex number: ', 1 + 1j)
 print ('Multiplying complex number: ',(1 + 1j) * (1-1j))
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # Declaring the variable at the top first
 a = 3 
@@ -152,12 +152,12 @@ floor_division = a // b
 exponential = a ** b
 
 print (total, diff, product, division, remainder, floor_division, exponential)
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # CASTING OPERATIONS (convert between data types)
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 # int to float
 num_int = 10
@@ -185,12 +185,12 @@ first_name = 'Asabeneh'
 print (first_name)               # 'Asabeneh'
 first_name_to_list = list(first_name)
 print (first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # STRINGS
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 # Concatenate
 print ("Hello" + "World")
@@ -221,7 +221,7 @@ print ('Day 3\t5\t23')
 print ('Day 4\t1\t35')
 print ('This is a backslash  symbol (\\)') # To write a backslash
 print ('In every programming language it starts with \"Hello, World!\"') # to write a double quote inside a single quote
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # Format strings
@@ -230,7 +230,7 @@ last_name = 'Yetayeh'
 language = 'Python'
 formated_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)
 print (formated_string)  # I am Asabeneh Yetayeh. I teach Python
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 a = 4
 b = 3
@@ -238,7 +238,7 @@ print ('{} + {} = {}'.format(a, b, a + b))   # 4 + 3 = 7
 print ('{} - {} = {}'.format(a, b, a - b))
 print ('{} * {} = {}'.format(a, b, a * b))
 print ('{} / {} = {:.2f}'.format(a, b, a / b)) # limits it to two digits after decimal
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # Strings  and numbers
 radius = 12
@@ -246,7 +246,7 @@ pi = 3.14
 area = pi * radius ** 2
 formated_string = 'The area of a circle with a radius {} is {:.2f}.'.format(radius, area) # 2 digits after decimal
 print (formated_string)  # The area of a circle with a radius 12 is 452.16.
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # String interpolation
@@ -259,7 +259,7 @@ print (f'{a} / {b} = {a / b:.2f}') # 4 / 3 = 1.33
 print (f'{a} % {b} = {a % b}')     # 4 % 3 = 1
 print (f'{a} // {b} = {a // b}')   # 4 // 3 = 1
 print (f'{a} ** {b} = {a ** b}')   # 4 ** 3 = 64
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # Sequences of characters
@@ -276,7 +276,7 @@ print (language[2]) # t
 
 last_index = len(language) - 1
 print (language[last_index]) # n
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # Slice strings
 language = 'Python'
@@ -290,17 +290,17 @@ last_three = language[-3:]
 print (last_three)   # hon
 last_three = language[3:]
 print (last_three)   # hon
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # Reversing strings
 greeting = 'Hello, World!'
 print (greeting[::-1]) # !dlroW ,olleH
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # STRING METHODS
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 language = 'python'
 print (language.capitalize()) # Set first character to capital letter
@@ -321,12 +321,12 @@ challenge = 'thirty days of pythoonnn'
 print (challenge.strip('noth')) # 'irty days of py'
 
 print ("Py" == "py")  # It's not the same.
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # LISTS []
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 '''
 A list is collection of different data types which is ordered and modifiable (MUTABLE). 
@@ -347,7 +347,7 @@ last_element = my_list[len(my_list) - 1] # 17
 last_element = my_list[-1] # 17
 second_last_element = my_list[-2] # 30
 #error_element = my_list[100] # wrong index.
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # Unpacking list items
@@ -357,7 +357,7 @@ print (first_item)     # item1
 print (second_item)    # item2
 print (third_item)     # item3
 print (rest)           # ['item4', 'item5']
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 first, second, third, *rest, tenth = [1,2,3,4,5,6,7,8,9,10]
 print (first)          # 1
@@ -365,7 +365,7 @@ print (second)         # 2
 print (third)          # 3
 print (rest)           # [4,5,6,7,8,9]
 print (tenth)          # 10
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # Slicing items from lists
@@ -382,14 +382,14 @@ orange_and_mango = fruits[-3:-1] # it does not include the last index, ['orange'
 orange_mango_lemon = fruits[-3:] # this will give starting from -3 to the end, ['orange', 'mango', 'lemon'].
 reverse_fruits = fruits[::-1] # a negative step will take the list in reverse order, ['lemon', 'mango', 'orange', 'banana'].
 
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # checking items
 fruits = ['banana', 'orange', 'mango', 'lemon']
 does_exist = 'banana' in fruits
 print (does_exist)  # True
 
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # +++++++++++++++++++++++
 # MANIPULATE LISTS:
@@ -427,12 +427,12 @@ fruits.sort(reverse=True)   # Inverse -- ['orange', 'mango', 'lemon', 'banana']
 ages = [22, 19, 24, 25, 26, 24, 25, 24]
 ages.sort()           # Numerical -- [19, 22, 24, 24, 24, 25, 25, 26]
 ages.sort(reverse=True)     # Inverse -- [26, 25, 25, 24, 24, 24, 22, 19]
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # TUPLES: ()
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 '''
 A tuple is a collection of different data types which is ordered and unchangeable (IMMUTABLE). 
@@ -521,7 +521,7 @@ print (vegetables_tmp)    #  ['Letucce', 'Pea', 'Potato', 'Cabbage', 'Onion', 'C
 
 del (vegetables)        # Remove 'tuple'
 del (vegetables_tmp)    # Remove 'list'
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # Checking items in a tuple
@@ -540,12 +540,12 @@ print (green)    # apple
 print (yellow)   # banana
 print (red)      # cherry
 
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # SETS: {}
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 '''
 In Python set is used to store UNIQUE items, has UNSORTED elements and it is possible to find:
@@ -599,7 +599,7 @@ st3 = st1.union(st2)
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
 print (fruits.union(vegetables)) # {'lemon', 'carrot', 'tomato', 'banana', 'mango', 'orange', 'cabbage', 'potato', 'onion'}
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 
@@ -627,7 +627,7 @@ print (type(fruits))  # <class 'set'>
 st = {'item1', 'item2', 'item3', 'item4'}
 del st
 # print (st)  # NameError: name 'st' is not defined.
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # Converting 'List' to 'Set'
@@ -639,7 +639,7 @@ st = set(lst)  # {'item2', 'item4', 'item1', 'item3'} - the order is random, bec
 fruits = ['banana', 'orange', 'mango', 'lemon','orange', 'banana']
 fruits = set(fruits) # {'mango', 'lemon', 'banana', 'orange'}
 print (fruits)
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 # INTERSECTION: returns a set of items which are in both the sets
@@ -650,7 +650,7 @@ st1.intersection(st2)    # {'item2', 'item3'}
 python = {'p', 'y', 't', 'h', 'o','n'}
 dragon = {'d', 'r', 'a', 'g', 'o','n'}
 print (python.intersection(dragon))     # {'o', 'n'}
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # Check SUBSET and SUPERSET
 st1 = {'item1', 'item2', 'item3', 'item4'}
@@ -663,7 +663,7 @@ dragon = {'d', 'r', 'a', 'g', 'o','n'}
 python.issubset(dragon)     # False
 {'n','o'}.issubset(python)  # True
 dragon.issuperset({'r','o','n'})  # True
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # DIFFERENCE: returns a set of difference between two sets
 st1 = {'item1', 'item2', 'item3', 'item4'}
@@ -675,7 +675,7 @@ python = {'p', 'y', 't', 'o','n'}
 dragon = {'d', 'r', 'a', 'g', 'o','n'}
 python.difference(dragon)     # {'p', 'y', 't'} => Elements that NOT are in 'dragon'
 dragon.difference(python)     # {'d', 'r', 'a', 'g'} => Elements that NOT are in 'python'
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # SYMMETRIC DIFFERENCE: 
 #  it returns a set that contains all items from both sets, 
@@ -685,7 +685,7 @@ whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 some_numbers = {1, 2, 3, 4, 5}
 print (whole_numbers.symmetric_difference(some_numbers))  # {0, 6, 7, 8, 9, 10}
 print (whole_numbers.intersection(some_numbers))          # {1, 2, 3, 4, 5}
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # DISJOINT SETS:
 # If two sets do not have a common item or items we call them disjoint sets.
@@ -696,13 +696,13 @@ print (even_numbers.isdisjoint(odd_numbers)) # True, because no common item
 python = {'p', 'y', 't', 'h', 'o','n'}
 dragon = {'d', 'r', 'a', 'g', 'o','n'}
 print (python.isdisjoint(dragon))  # False, there are common items {'o', 'n'}
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # DICTIONARIES: {}
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 
 my_dict = dict()      # dict constructor
@@ -729,7 +729,7 @@ my_dict = {
 }
 
 print (len(my_dict))    # 5 (count the pairs 'key:value')
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # ACCESS items
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
@@ -740,25 +740,25 @@ print (my_dict['Lenguajes'][0])   # Python
 print (my_dict['Address']['zipcode'])   # 02210
 
 # NOTE: Accessing an item by key name raises an error if the key does not exist. 
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # ADD items to dictionary
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 dct['key5'] = 'value5'
 print (dct)
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # MODIFY items
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 dct['key1'] = 'new_value'
 print (dct)
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # CHECK if key exist
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 print('key2' in dct)  # True
 print('key5' in dct)  # False
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # REMOVE items
 '''
@@ -772,36 +772,36 @@ dct.pop('key1') # removes key1 item
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 dct.popitem() # removes the last item
 del dct['key2'] # removes key2 item
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # PRINT items (pairs), keys and values in a LIST ():
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3'}
 print (dct.items())   # dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3', 'value3')])
 print (dct.keys())    # dict_keys(['key1', 'key2', 'key3'])
 print (dct.values())  # dict_values(['value1', 'value2', 'value3'])
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # CLEAR dictionary
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 print(dct.clear())    # None
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # DELETE dictionary
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 del dct
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 # COPY a dictionary
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3'}
 dct_copy = dct.copy()
 print (dct_copy)    # {'key1':'value1', 'key2':'value2', 'key3':'value3'}
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # CONDITIONALS (if / elif / else )
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 '''
 if condition:
@@ -873,13 +873,13 @@ if user == 'admin' or access_level >= 4:
 else:
   print ('Access denied!')
     
-print ('-------------------------------------------------')
+print ('-----------------------')
 
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 # LOOPS ( while / for )
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++
 
 '''
 while condition:
@@ -889,8 +889,8 @@ while condition:
 
 
 
-print ('-------------------------------------------------')
-print ('-------------------------------------------------')
-print ('-------------------------------------------------')
-print ('-------------------------------------------------')
-print ('-------------------------------------------------')
+print ('-----------------------')
+print ('-----------------------')
+print ('-----------------------')
+print ('-----------------------')
+print ('-----------------------')
